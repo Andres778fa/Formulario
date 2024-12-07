@@ -1,6 +1,6 @@
 // Coordenadas permitidas (por ejemplo, las de tu sitio físico)
-const allowedLatitude = 4.60971;  // Reemplaza con la latitud permitida
-const allowedLongitude = -74.08175; // Reemplaza con la longitud permitida
+const allowedLatitude = 4.7180303;  // Reemplaza con la latitud permitida
+const allowedLongitude = -74.1357292; // Reemplaza con la longitud permitida
 const range = 0.01; // Rango permitido (en grados, ajusta según lo necesario)
 
 // Verificar la posición del usuario
