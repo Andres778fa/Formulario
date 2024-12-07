@@ -1,7 +1,7 @@
-// Coordenadas permitidas (por ejemplo, las de tu sitio físico)
-const allowedLatitude = 4.7180303;  // Reemplaza con la latitud permitida
-const allowedLongitude = -74.1357292; // Reemplaza con la longitud permitida
-const range = 0.01; // Rango permitido (en grados, ajusta según lo necesario)
+// Coordenadas permitidas 
+const allowedLatitude = 4.60971;  // latitud permitida
+const allowedLongitude = -74.08175; // longitud permitida
+const range = 0.01; // Rango permitido 
 
 // Verificar la posición del usuario
 if (navigator.geolocation) {
@@ -9,7 +9,7 @@ if (navigator.geolocation) {
     (position) => {
       const { latitude, longitude } = position.coords;
 
-      // Mostrar las coordenadas (solo para depuración)
+      // Mostrar las coordenadas 
       console.log(`Latitud: ${latitude}, Longitud: ${longitude}`);
 
       // Validar la posición
