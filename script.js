@@ -1,6 +1,6 @@
 // Coordenadas permitidas 
-const allowedLatitude = 4.7180303;  // latitud permitida
-const allowedLongitude = -74.1357292; // longitud permitida
+const allowedLatitude = 4.642645342708766;  // latitud permitida
+const allowedLongitude = -74.1227883; // longitud permitida
 const range = 0.01; // Rango permitido 
 
 // Verificar la posición del usuario
